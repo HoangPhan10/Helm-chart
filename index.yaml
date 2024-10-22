@@ -3,7 +3,7 @@ entries:
   chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-22T17:05:13.2842935+07:00"
+    created: "2024-10-22T17:08:50.5875137+07:00"
     description: A Helm chart for Kubernetes
     digest: 045fce748983869493cf0a5b346b277c75da743ea85938e3c46fdad18205d714
     name: chart
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-22T17:05:13.2842935+07:00"
+    created: "2024-10-22T17:08:50.5875137+07:00"
     description: A Helm chart for Kubernetes
     digest: 5653a34df02067d396f43e6d54ed798d4025d1b22293ba8b1a21138b75332735
     name: chart
@@ -21,4 +21,15 @@ entries:
     urls:
     - public/chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-22T17:05:13.2837646+07:00"
+  chart-nginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-22T17:08:50.5875137+07:00"
+    description: A Helm chart for Kubernetes
+    digest: f3936e31abd78068d07b990e2d400d28c5adcfad08888442733fe1dfbd1f7943
+    name: chart-nginx
+    type: application
+    urls:
+    - public/chart-nginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-10-22T17:08:50.5869171+07:00"
