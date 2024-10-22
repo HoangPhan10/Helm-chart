@@ -1,0 +1,8 @@
+identifier: identifier
+
+deployment:
+  image: nginx:1.14.2
+  containerPort: 80
+
+service:
+  port: 9376
