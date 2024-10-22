@@ -11,13 +11,13 @@ helm repo add chart-hoangpv https://raw.githubusercontent.com/HoangPhan10/Helm-c
 helm search repo chart-hoangpv
 ```
 ```bash
-NAME                    CHART VERSION   APP VERSION     DESCRIPTION
-chart-hoangpv/chart     0.1.0           1.16.0          A Helm chart for Kubernetes
+NAME                            CHART VERSION   APP VERSION     DESCRIPTION
+chart-hoangpv/nginx-chart       0.1.0           1.16.0          A Helm chart for Kubernetes
 ```
 
 # Get configurations (values file)
 ```bash
-helm show values chart-hoangpv/chart > myvalues.yaml
+helm show values chart-hoangpv/nginx-chart > myvalues.yaml
 ```
 ```bash
 identifier: identifier
@@ -32,11 +32,11 @@ service:
 
 # Install chart with your configurations
 ```bash
-helm install dragon chart-hoangpv/chart -f myvalues.yaml
+helm install dragon chart-hoangpv/nginx-chart -f myvalues.yaml
 ```
 ```bash
 NAME: dragon
-LAST DEPLOYED: Tue Oct 22 16:59:57 2024
+LAST DEPLOYED: Tue Oct 22 17:17:56 2024
 NAMESPACE: default
 STATUS: deployed
 REVISION: 1
