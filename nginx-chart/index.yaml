@@ -87,7 +87,7 @@ entries:
         can be used for pooled IPAM (i.e. the multi-pool IPAM mode).\n"
     apiVersion: v2
     appVersion: 1.16.3
-    created: "2024-10-24T21:11:10.1056728+07:00"
+    created: "2024-10-24T21:20:06.6357782+07:00"
     description: eBPF-based Networking, Security, and Observability
     digest: e1be328218c74bd2bed91f996d8c1b10e785715ce53299a392f79b0cef796805
     home: https://cilium.io/
@@ -107,4 +107,19 @@ entries:
     urls:
     - charts/cilium-1.16.3.tgz
     version: 1.16.3
-generated: "2024-10-24T21:11:10.0954885+07:00"
+  nginx-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-24T21:20:06.6437215+07:00"
+    dependencies:
+    - name: cilium
+      repository: https://helm.cilium.io/
+      version: 1.16.3
+    description: A Helm chart for Kubernetes
+    digest: ec418c1ac7e3edf25ed2a8ddcd2dfbcac9872f972d1d314a34dca769bfefecfe
+    name: nginx-chart
+    type: application
+    urls:
+    - charts/nginx-chart-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-10-24T21:20:06.6262909+07:00"
