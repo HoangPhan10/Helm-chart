@@ -3,12 +3,22 @@ entries:
   nginx-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-22T17:15:04.957839+07:00"
+    created: "2024-10-24T20:21:29.6181515+07:00"
     description: A Helm chart for Kubernetes
-    digest: d7230cf695e47f47f89ea6418b11b5dc216af66a0843259c74243948b32c6fe9
+    digest: 11d0b623a32004204e74eaa19da1c2e5a8450078f9b8f1df1c9219e7f0e0c198
+    name: nginx-chart
+    type: application
+    urls:
+    - public/nginx-chart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-24T20:21:29.6169616+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 9a86fe787731fa055da432ddad746327bc1f972347281619e3a23b3624f532d2
     name: nginx-chart
     type: application
     urls:
     - public/nginx-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-22T17:15:04.957265+07:00"
+generated: "2024-10-24T20:21:29.6163049+07:00"
